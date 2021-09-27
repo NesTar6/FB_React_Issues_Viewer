@@ -1,0 +1,30 @@
+.comment-header-text {
+    min-width: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 1px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: #57606a;
+    flex-direction: flex-start;
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #d0d7de;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.comment_body_text {
+    border: 2px solid rgb(151, 150, 150);
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    width: 100%;
+    overflow: visible;
+    font-size: 14px;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    line-height: 1.5;
+    word-wrap: break-word;
+}

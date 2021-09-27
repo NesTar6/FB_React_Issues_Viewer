@@ -1,0 +1,104 @@
+.issueTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pagination_station {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pagination_station button{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.pagination_station button:hover{
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+
+.pagination_station button:active{
+    position:relative;
+	top:1px;
+}
+
+.pagination_station button:disabled{
+    position:relative;
+    background-color:#c1d1e6;
+    background:#c1d1e6;
+    border:1px solid #c1d1e6;
+    box-shadow: 0px 0px 0px 2px #c1d1e6;
+	top:1px;
+}
+
+.title_style {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title_style h4 {
+    margin: 0px;
+    text-decoration: none ;
+    font-weight: 600;
+    color: #24292f
+}
+
+.title_style h4:hover {
+    color: #218bff;
+}
+
+.title_style p {
+    font-size: 12px;
+    color: #57606a;
+}
+
+ul {
+    border: 2px solid rgb(151, 150, 150);
+    margin-left:25%;
+    margin-right: 25%;
+    list-style: none;
+    border-radius: 10px;
+    padding:0px;
+}
+
+ul li:hover {
+    border-radius: 5px;
+    background-color: rgb(250, 249, 249);
+}
+
+ul li {
+    border-bottom: 1px solid rgb(207, 205, 205);
+    margin-left: 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color: black
+}
+
+

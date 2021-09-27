@@ -1,0 +1,18 @@
+.issue_header {
+    margin-bottom: 24px;
+    border-bottom: 1px solid #d0d7de;
+}
+
+.body_text {
+    border: 2px solid rgb(151, 150, 150);
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 15px;
+    overflow: visible;
+    font-size: 14px;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    line-height: 1.5;
+    word-wrap: break-word;
+}
